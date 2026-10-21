@@ -1,0 +1,60 @@
+/* ClearThink AI Styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scrolling and dark theme scrollbar */
+html {
+  color-scheme: dark;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* Markdown styling inside prose */
+.prose {
+  color: #e2e8f0;
+}
+
+.prose p {
+  margin-bottom: 0.75rem;
+  line-height: 1.625;
+}
+
+.prose ul, .prose ol {
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+  padding-left: 1.25rem;
+}
+
+.prose li {
+  margin-bottom: 0.25rem;
+}
+
+.prose strong {
+  color: #38bdf8;
+  font-weight: 600;
+}
+
+.prose code {
+  background-color: #1e293b;
+  color: #38bdf8;
+  padding: 0.15rem 0.35rem;
+  border-radius: 0.25rem;
+  font-size: 0.875em;
+}
